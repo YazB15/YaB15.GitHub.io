@@ -1,0 +1,344 @@
+/*--Homepage--*/
+
+*{
+	display:inline-block;
+	text-align: center;
+}
+
+/*.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: linear-gradient(to right top, #59a6c8, #60a5c2, #67a4bc, #6ea3b6, #75a2b1); 
+   background-repeat: no-repeat; 
+   background-position: center;
+}*/
+
+
+h1{
+	font-family: 'IM Fell Double Pica', serif;
+	color: whitesmoke;
+	font-size: 50px;
+	text-align: left;
+	padding: 15px;
+	margin: auto;
+}
+
+header{
+	padding: 0;
+	margin: auto;
+	background-image: linear-gradient(to right top, #59a6c8, #60a5c2, #67a4bc, #6ea3b6, #75a2b1);
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+nav{
+	margin: 0;
+	padding: 0; 
+	display: flex;
+	justify-content: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.topnav{
+	display: flex;
+	justify-content: center;
+	background-color: none;
+}
+
+li{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	font-family: 'Calligraffitti', cursive;
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 15px;
+}
+
+
+
+
+
+body{
+	background-image: url("../img/background.jpg");
+	opacity: 25%;
+
+}
+	
+
+
+
+
+
+#explore{
+	font-family: 'IM Fell Great Primer', serif;
+	color: grey;
+	font-size: 50px;
+	text-align: center;
+}
+
+button{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    color: grey;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p{
+	color: whitesmoke;
+	padding: 45px;
+	font-size: 18px;
+	margin: 35px 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+#main-image{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+
+footer{
+	background-image: linear-gradient(to right top, #59a6c8, #60a5c2, #67a4bc, #6ea3b6, #75a2b1);
+	width: 100%;
+	width: 100%;
+	height: 50%
+
+}
+
+
+
+/*--hiking page--*/
+
+#hike{
+	width: 100%;
+	height: 60px;
+	padding: 45px;
+	margin: 10px;
+}
+
+/*--kayak page--*/
+
+   
+.container{
+	background-color: transparent;
+}
+
+
+.map-container {
+	width: 100%;
+	height:100%;
+	position: relative;
+}
+
+
+
+
+
+/*--about page--*/
+
+article{
+	background-image: url("../img/trees.jpg");
+	opacity: 50%;
+}
+
+h2{
+	font-family: 'IM Fell Great Primer', serif;
+	color: whitesmoke;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	-webkit- animation: SlideIn 1s ease forwards;
+	animation: SlideIn 1s ease forwards;
+}
+
+#about{
+	padding: 5px;
+	margin: auto;
+}
+
+
+ 
+
+
+.paraFadeIn{
+	-webkit-animation: SlideIn 0.8s ease 0.3s forwards;
+}
+
+@-webkit-keyframes SlideIn{
+	0%{
+		-webkit-transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+        
+        -webkit-transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+
+ @keyframes SlideIn{
+ 	   0%{
+         
+         -webkit-transform: translateY(50px);
+         opacity: 0;
+
+       }
+
+       100% {
+        
+        -webkit-transform: translateY(0);
+        opacity: 1;
+
+   }
+
+}
+
+
+
+/*--explore page--*/
+
+#Map{
+
+    width: 100%;
+    height: 100%;
+    /*padding: 35px;*/
+    margin: 0 auto;
+}
+
+
+#Link-1{
+	position: absolute;	
+	color: white;
+	left:29%;
+	top:45%;
+
+}
+
+#Link-2{
+	position: absolute;	
+	color: white;
+	left:31%;
+	top:72%;
+
+}
+
+#Link-3{
+	position: absolute;	
+	color: white;
+	left:51%;
+	top:49%;
+
+}
+
+
+#Link-4{
+	position: absolute;	
+	color: white;
+	left:56%;
+	top:65%;
+
+}
+
+
+
+/*.wrapper {
+  max-width: 940px;
+   width: 100%;
+   position: relative;
+   overflow: hidden
+   margin: 0 auto;
+    overflow: visible;
+
+   }
+
+&:after, &:before {
+	  content: "";
+    position: absolute;
+    width: 800px;
+    height: 100%
+    top: 0;
+    left: 100%;
+     background: rgba(255, 255,255, .8);
+     z-index: 2;
+
+ }
+
+     &:before {
+     	 left: -800px;
+
+     	}
+     }
+
+     .carousel {
+     	width: 100%;
+  position: relative;
+
+  .carousel__content {
+  	width: auto;
+  	position: relative;
+  	overflow: hidden;
+  	-webkit-backface-visibility: hidden;
+  	-webkit-transition:translate3d(0,0,0);
+
+  }
+
+
+  	.item {
+  		 display: block;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Map page--*/
+
+
+
+
+
+
+
+
